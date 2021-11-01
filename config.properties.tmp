@@ -1,0 +1,20 @@
+[Logs]
+# the full path were the logs file will be written
+logFile: C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2/DrugsInTweetsLab2.log
+
+[Data]
+# the full path were the input data are store
+trainPath: C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2/Resources/train.tsv
+valPath: C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2/Resources/validation.tsv
+testPath:C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2/Resources/test.tsv
+
+lexiconPath:C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2/Resources/Lexicon/LexiconDrugs.tsv
+lexiconOutputPath: C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2
+regexOutputPath: C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2
+
+#word embeddings path, they are downloaded from https://nlp.stanford.edu/projects/glove/, I chose the word embeddings computed from Twitter: glove.twitter.27B.zip and took only the 25d to save space
+wordEmbeddingsPath: C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2/glove.twitter.27B.25d.txt
+checkPointPath: C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2/CNNLab3BestModel.h5
+
+# the full path were the predictions of the decision tree will be written
+predictionsOutPath: C:/Users/Katie/Documents/DrugInTweetsLab2 (1)/DrugInTweetsLab2/NaiveBayesPrediction.csv
